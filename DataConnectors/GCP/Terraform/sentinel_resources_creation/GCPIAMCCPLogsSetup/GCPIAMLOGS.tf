@@ -10,7 +10,7 @@ terraform {
 }
 
 data "google_project" "project" {
-  project_id = "Your project_id should be entered"
+  project_id = "1025333369233"
 }
 
 variable "topic-name" {
