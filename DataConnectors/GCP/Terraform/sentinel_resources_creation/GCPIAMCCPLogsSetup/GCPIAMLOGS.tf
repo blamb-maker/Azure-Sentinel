@@ -10,7 +10,7 @@ terraform {
 }
 
 data "google_project" "project" {
-  project_id = "Your project_id should be entered"
+  project_id = "1025333369233"
 }
 
 variable "topic-name" {
@@ -21,7 +21,7 @@ variable "topic-name" {
 
 variable "organization-id" {
   type    = string
-  default = ""
+  default = "a1e2de66-0364-455c-ae0f-b271970d13cc"
   description = "Organization id"
 }
 
